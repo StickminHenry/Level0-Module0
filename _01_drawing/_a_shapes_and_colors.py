@@ -20,7 +20,7 @@ my_turtle.forward(200)
 my_turtle.left(90)
 # Now put the forward and left/right code into a for loop to repeat 4 times.
 # TEST    Did your turtle draw a square?
-for num in range(4):
+for num in range(8):
     my_turtle.forward(200)
     my_turtle.left(90)
 # Move your turtle to a new place on the screen using .goto(x, y)
@@ -29,7 +29,7 @@ my_turtle.goto(0,200)
 my_turtle.goto(200,0)
 # Have your turtle draw a circle using .circle(radius, steps=30)
 # TEST    Did your turtle draw a circle?
-
+my_turtle.circle(200, steps=200)
 # Add color to your shape by adding .begin_fill() before drawing the circle
 # and .end_fill() below
 
