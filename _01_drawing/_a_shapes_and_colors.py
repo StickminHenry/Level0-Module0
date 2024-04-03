@@ -29,7 +29,7 @@ my_turtle.goto(0,200)
 my_turtle.goto(200,0)
 # Have your turtle draw a circle using .circle(radius, steps=30)
 # TEST    Did your turtle draw a circle?
-my_turtle.circle(200, steps=200)
+my_turtle.circle(200, 360)
 # Add color to your shape by adding .begin_fill() before drawing the circle
 # and .end_fill() below
 
