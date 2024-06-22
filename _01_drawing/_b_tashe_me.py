@@ -36,7 +36,7 @@ def screen_clicked(x, y):
     # 4. Show your moustache by calling the .showturtle() function
     # moustache.showturtle()
     moustache.showturtle()
-
+    moustache.goto(x,y)
     # 5. Move your moustache to a new location using .goto(x, y)
 
 
